@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var routeInjector = require('../../../src/index');
+routeInjector.start(function () {
+    console.log("Hola", routeInjector.version);
+    //console.log(routeInjector)
+    setInterval(function(){
+        var routeInjector = require('../../../src/index');
+    }, 5000);
+});
+
+
+
