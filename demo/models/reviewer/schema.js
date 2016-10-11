@@ -1,8 +1,8 @@
 var mongoose = require('mongoose')
     , Schema = mongoose.Schema
     , ObjectId = Schema.ObjectId
-    , injector = require('../../../../src').MongooseInjector
-    , jsonform = require('../../../../src').MongooseJsonform;
+    , injector = require('route-injector').MongooseInjector
+    , jsonform = require('route-injector').MongooseJsonform;
 
 var schema = new Schema({
         isReviewer: {type: Boolean},
