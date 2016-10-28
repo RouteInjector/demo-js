@@ -3,8 +3,8 @@ var mongoose = require('mongoose')
     , util = require('util')
     , Schema = mongoose.Schema
     , ObjectId = Schema.ObjectId
-	, injector = require('../../../../src').MongooseInjector
-	, jsonform = require('../../../../src').MongooseJsonform;
+	, injector = require('route-injector').MongooseInjector
+	, jsonform = require('route-injector').MongooseJsonform;
 
 function BaseSchema() {
 	Schema.apply(this, arguments);

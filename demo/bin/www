@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var path = require('path');
-var routeInjector = require('../../../src/index');
+var routeInjector = require('route-injector');
 
 /*
 routeInjector.loadPlugin(path.join(__dirname, '..', '..', '..', 'plugins_dev', 'riprofiler'));
