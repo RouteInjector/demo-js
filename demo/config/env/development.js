@@ -8,6 +8,13 @@ module.exports = {
         port: 40000
     },
     images: {
+        gallery: {
+            endpoint: "/gallery",
+            filepath: __dirname + "/../../image",
+            listDirectory: ["admin"],
+            postImage: ["admin"],
+            deleteImage: ["admin"]
+        },
         path: __dirname + "/../../image",
         cache: __dirname + "/../../image/.cache",
         galleryFolder: __dirname + "/../../images"
